@@ -1,10 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+export const collatedTasks = [
+  {key: 'INBOX', name: 'Inbox'},
+  {key: 'TODAY', name: 'Today'},
+  {key: 'NEXT_7', name: 'Next 7 days'},
+];
